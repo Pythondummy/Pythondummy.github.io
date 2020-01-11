@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>???</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="header">
+<img src="images/heilig-graf-logo.jpg" class="logoS">
+<a href="index.html">home</a>
+<a href="video.html">video's</a>
+<a href="hobby.html">hobby's</a>
+<a href="keuze.html">???</a>
+<p class="naam">Emiel Dockx</p>
+</div>
+<h1 class="quizH">samenvoegen</h1>
+<center>
+<ul>
+	<li>de tweede letter van dit woord : li</li>
+	<li>de vijfde letter van dit woord : text-align</li>
+	<li>de derde letter van dit woord : font-size</li>
+	<li>de eerste letter van dit woord : @keyframes</li>
+</ul>
+</center>
+<form name="login">
+antw 1:<input type="text" name="anta"/>
+<input type="button" onclick="check(this.form)" value="antwoord invoegen"/>
+<input type="reset" value="Cancel"/>
+</form>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.anta.value == "link")
+  {
+    window.open('keuze_3.html')/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("dit is niet juist probeer opnieuw")/*displays error message*/
+  }
+}
+</script>
+<center>
+<p>tip aleen gebruiken als het nodig is!<br><br><br><br><br><br>je gebruikt deze tag om een apart css aan dit document te koppelen.</p>
+</center>
+</body>
+</html>
