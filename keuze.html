@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>???</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="header">
+<img src="images/heilig-graf-logo.jpg" class="logoS">
+<a href="index.html">home</a>
+<a href="video.html">video's</a>
+<a href="hobby.html">hobby's</a>
+<a href="keuze.html">???</a>
+<p class="naam">Emiel Dockx</p>
+</div>
+<h1 class="quizH">mini quiz</h1>
+<center>
+<ul>
+	<li>Welke tag gebruik je om items in een list te zetten ?</li>
+	<li>Met welke css property centreer je text ?</li>
+	<li>Met welke css property verander je de groote van tekst ?</li>
+	<li>Met welke css property specifeer je de animatie code ?</li>
+</ul>
+</center>
+<form name="login">
+antw 1:<input type="text" name="anta"/>
+antw 2:<input type="text" name="antb"/>
+antw 3:<input type="text" name="antc"/>
+antw 4:<input type="text" name="antd"/>
+<input type="button" onclick="check(this.form)" value="antwoord invoegen"/>
+<input type="reset" value="Cancel"/>
+</form>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.anta.value == "li" && form.antb.value == "text-align" && form.antc.value == "font-size" && form.antd.value == "@keyframes")
+  {
+    window.open('keuze_2.html')/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("dit is niet juist probeer opnieuw")/*displays error message*/
+  }
+}
+</script>
+</body>
+</html>
