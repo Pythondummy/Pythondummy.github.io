@@ -1,0 +1,252 @@
+body {
+	background-color: #262626;
+}
+p, h1, h2, h3{
+	color: #ffffff;
+}
+td, th{
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+	display: inline;
+	color: #009999;
+	padding: 1em;
+	border-radius: 10px;
+	border: darkgrey solid 3px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	background-color: darkgrey;
+	transition: border 1.5s;
+	animation-name: appear;
+	animation-duration: 5s;
+}
+a:hover {
+	text-decoration: underline;
+	color: #009999;
+	font-weight: bold;
+	padding: 1em;
+	border: #ff3300 solid 3px;
+}
+a:linked {
+	text-decoration: none;
+	color: #0099ff;
+	padding: 1em;
+}
+.header {
+	opacity: 90%;
+	margin-top: -1.2%;
+	width: 100%;
+	height: 10.4%;
+	background-color: #000000;
+	position: fixed;
+	padding-top: 25px;
+	text-align: center;
+	animation-name: appearh;
+	animation-duration: 5s;
+	z-index: 1;
+}
+.headerIndex {
+	margin-top: -0.5%;
+	opacity: 90%;
+	width: 100%;
+	height: 10.5%;
+	background-color: #000000;
+	position: fixed;
+	padding-top: 25px;
+	text-align: center;
+	animation-name: appearh;
+	animation-duration: 5s;
+	z-index: 1;
+}
+.naam {
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: #009999;
+	font-weight: bold;
+	animation-name: appear;
+	animation-duration: 5s;
+}
+img {
+	width: 12%;
+	height: auto;
+	animation-name: appear;
+	animation-duration: 5s;
+}
+.logo {
+	margin: 1.5em;
+	margin-left: 42.5%;
+	opacity: 100%;
+	animation-name: appear;
+	animation-duration: 5s;
+	z-index: -2;
+}
+.kader	{
+	margin-left: 35%;
+	position: relative;
+	border: #0000cc solid 5px;
+	padding-left: 0px;
+	padding-top: 0px;
+	width: 30%;
+	height: 15%;
+	animation-name: appear;
+	animation-duration: 5s;
+}
+.logoS {
+	width: 200px;
+	height: 125px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	animation-name: appear;
+	animation-duration: 5s;
+	z-index: 1;
+}
+.vid {
+	padding-top: 20%;
+	padding-left: 40%;
+	animation-name: appear;
+	animation-duration: 5s;
+}
+.vid_num {
+	font-size: 500%;
+	margin: 0%;
+	animation-name: appear;
+	animation-duration: 5s;
+}
+iframe {
+	border-radius: 60px;
+	border: #0000cc solid 4px;
+	margin-left: 10%;
+	animation-name: appear;
+	animation-duration: 5s;
+}
+.mz {
+	text-align: center;
+	padding-top: 0%;
+	animation-name: appear;
+	animation-duration: 5s;
+}
+@keyframes appear {
+	from {opacity: 0%;}
+	to {opacity: 100%;}
+}
+@keyframes appearh {
+	from {opacity: 0%;}
+	to {opacity: 90%;}
+}
+.hobby {
+	text-align: center;
+	padding-top:25%;
+	animation-name: hobbyt;
+	animation-duration: 5s;
+}
+.hobbytxtr {
+	text-align: center;
+	animation-name: hobbytxtanirl;
+	animation-duration: 5s;
+}
+.hobbytxtl {
+	text-align: center;
+	animation-name: hobbytxtanilr;
+	animation-duration: 5s;
+}
+.hobbytxtdiv {
+	border: #ff3300 solid 3px;
+}
+.pvid {
+	animation-name: appear;
+	animation-duration: 5s;
+}
+.codeIMG {
+	position: absolute;
+	z-index: -1;
+}
+.absolr {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	animation-name: slideInRight;
+	animation-duration: 5s;
+	z-index: -1;
+}
+.absolrl {
+	position: absolute;
+	margin-left: 84%;
+	margin-bottom: 15%;
+	animation-name: slideInRight;
+	animation-duration: 5s;
+	z-index: -1;
+}
+.hbbytbl {
+	padding-top: 10%;
+}
+.quizH {
+	text-align: center;
+	padding-top: 25%;
+}
+th {
+	border: #000000 solid 3px;
+	color: #ffffff;
+}
+td {
+	border: #c0c0c0 solid 3px;
+	color: #ffffff;
+}
+form {
+	text-align: center;
+	padding-top: 10px;
+	color: #ffffff;
+}
+ul {
+	text-align: center;
+}
+li {
+	color: #ffffff;
+}
+.bckgrnd {
+	position:fixed;
+	margin-top: 23%;
+	margin-left: 36.2%;
+}
+.bckgrnd img {
+	width: 100%;
+	height: 100%;
+	opacity: 0%;
+	animation-name: disappear;
+	animation-duration: 5s;
+}
+.pzlc {
+	text-align: center;
+	animation-name: appear;
+	animation-duration: 5s;
+}
+.pzlcm {
+	text-align: center;
+	padding-top: 30%;
+	animation-name: appear;
+	animation-duration: 5s;
+}
+@keyframes disappear {
+	from{opacity: 100%}
+	to{opacity: 0%;}
+}
+@keyframes hobbytxtanirl {
+	from {margin-left: 60%;}
+	to {margin-left: 0%;}
+}
+@keyframes hobbytxtanilr {
+  from {margin-left: -60%;}
+  to {margin-left: 0;}
+}
+@keyframes hobbyt {
+	from {padding-top: 0%;}
+	to {padding-top: 25%;}
+}
+@keyframes slideInRight {
+	from {padding-right: 100%;}
+	to {padding-right: 0%;}
+}
